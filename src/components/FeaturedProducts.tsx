@@ -1,11 +1,7 @@
 import { Link } from 'react-router-dom';
+import { cakes } from '../constants/cakeTypes';
 
 const FeaturedProducts = () => {
-  const cakes = [
-    { id: 1, name: 'Chocolate Truffle', price: '$20', image: '/assets/images/cake1.jpg' },
-    { id: 2, name: 'Red Velvet', price: '$25', image: '/assets/images/cake2.jpg' },
-    { id: 3, name: 'Classic Cheesecake', price: '$18', image: '/assets/images/cake3.jpg' },
-  ];
 
   return (
     <section className="container mx-auto my-12">

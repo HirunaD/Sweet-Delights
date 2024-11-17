@@ -6,7 +6,7 @@ import Hero from '../sections/Home/Hero'
 
 function Home() {
   return (
-    <div>
+    <div className='bg-pink-700'>
       <Navbar />
       <Hero />
       <FeaturedProducts />
