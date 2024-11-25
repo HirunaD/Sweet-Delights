@@ -2,12 +2,14 @@ import { Link } from 'react-router-dom';
 import { cakes } from '../../constants/Home/cakeTypes';
 
 const FeaturedProducts = () => {
+  // Filter only special menu items
+  const specialCakes = cakes.filter((cake) => cake.isSpecial);
 
   return (
     <section className="container mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-center mb-8">Our Bestsellers</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {cakes.map((cake) => (
+        {specialCakes.map((cake) => (
           <div key={cake.id} className="bg-white shadow-lg rounded-lg p-4 text-center">
             <img src={cake.image} alt={cake.name} className="h-40 w-full object-cover rounded-md" />
             <h3 className="text-xl font-semibold mt-4">{cake.name}</h3>
