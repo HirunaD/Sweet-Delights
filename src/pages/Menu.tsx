@@ -3,7 +3,7 @@ import Hero from "../sections/Menu/Hero";
 
 function Menu() {
   return (
-    <div>
+    <div className="bg-pink-700">
       <Navbar />
       <Hero />
     </div>
