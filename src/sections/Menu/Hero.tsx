@@ -36,7 +36,7 @@ const Menu = () => {
       {/* Display Cakes */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {filteredCakes.map((cake) => (
-          <MenuItem key={cake.id} name={cake.name} price={cake.price} image={cake.image} />
+          <MenuItem key={cake.id} name={cake.name} price={cake.price} image={cake.image} id={cake.id} />
         ))}
       </div>
     </section>
