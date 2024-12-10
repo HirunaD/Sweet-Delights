@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="backdrop-blur-2xl p-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-4">
-        <Link to="/" className="text-5xl font-bold text-pink-400 w-3/5 flex justify-end">
+        <Link to="/" className="text-5xl font-bold text-blue-950 w-3/5 flex justify-end">
           Sweet Delights
         </Link>
         <ul className="flex font-semibold space-x-6">

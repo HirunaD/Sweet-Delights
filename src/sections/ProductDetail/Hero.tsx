@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { cakes } from '../../constants/Home/cakeTypes';
 
-const ProductDetail = () => {
+const Hero = () => {
   const params = useParams();
   const id = params.id ? parseInt(params.id, 10) : null;
 
@@ -17,12 +17,12 @@ const ProductDetail = () => {
         <img
           src={product.image}
           alt={product.name}
-          className="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-lg"
+          className="w-[720px] md:w-1/2 h-[400px] object-cover rounded-lg shadow-lg"
         />
         <div className="text-center md:text-left">
           <h1 className="text-4xl font-bold mb-4">{product.name}</h1>
-          <p className="text-pink-600 text-2xl font-semibold mb-4">{product.price}</p>
-          <p className="text-gray-700 mb-6">
+          <p className="text-white text-2xl font-semibold mb-4">{product.price}</p>
+          <p className="text-black mb-6">
             This delicious {product.name} is perfect for any occasion. Customize your order to make it extra special!
           </p>
           <button className="bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-700">
@@ -34,4 +34,4 @@ const ProductDetail = () => {
   );
 };
 
-export default ProductDetail;
+export default Hero;
