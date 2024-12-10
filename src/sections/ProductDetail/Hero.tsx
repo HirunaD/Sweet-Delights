@@ -12,7 +12,7 @@ const Hero = () => {
   const product = cakes.find((cake) => cake.id === id);
 
   const handleAddToCart = () => {
-    console.log('Added to cart:', { ...product, quantity });
+    // console.log('Added to cart:', { ...product, quantity });
     alert(`${product.name} x ${quantity} has been added to your cart!`);
   };
 
