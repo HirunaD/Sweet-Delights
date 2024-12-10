@@ -5,12 +5,12 @@ const Navbar = () => {
   const location = useLocation();
 
   const isActive = (path: string) =>
-    location.pathname === path ? 'text-pink-300 font-bold' : 'text-black';
+    location.pathname === path ? 'text-pink-400 font-bold' : 'text-black';
 
   return (
     <nav className="backdrop-blur-2xl p-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-4">
-        <Link to="/" className="text-5xl font-bold text-pink-300 w-3/5 flex justify-end">
+        <Link to="/" className="text-5xl font-bold text-blue-950 w-3/5 flex justify-end">
           Sweet Delights
         </Link>
         <ul className="flex font-semibold space-x-6">
