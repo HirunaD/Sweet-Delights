@@ -12,15 +12,16 @@ const Hero = () => {
   const product = cakes.find((cake) => cake.id === id);
 
   const handleAddToCart = () => {
-    // console.log('Added to cart:', { ...product, quantity });
+    if (product){
     alert(`${product.name} x ${quantity} has been added to your cart!`);
+    }
   };
 
   const handleBack = () => {
     navigate(-1); // Navigate to the previous page
   };
 
-  const handleQuantityChange = (type) => {
+  const handleQuantityChange = (type: "increase" | "decrease") => {
     if (type === "increase") {
       setQuantity((prev) => prev + 1);
     } else if (type === "decrease" && quantity > 1) {
