@@ -1,17 +1,13 @@
-import FeaturedProducts from '../components/Home/FeaturedProducts'
-import Footer from '../components/Home/Footer'
-import Navbar from '../components/Home/Navbar'
-import Testimonials from '../components/Home/Testimonials'
 import Hero from '../sections/Home/Hero'
+import Categories from '../sections/Home/Categories'
+import Feedbacks from '../components/Home/Feedbacks'
 
 function Home() {
   return (
     <div className='bg-pink-700'>
-      <Navbar />
       <Hero />
-      <FeaturedProducts />
-      <Testimonials />
-      <Footer />
+      <Categories />
+      <Feedbacks />
     </div>
   )
 }
