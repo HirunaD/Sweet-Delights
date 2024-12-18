@@ -1,13 +1,13 @@
-import FeaturedProducts from '../components/Home/FeaturedProducts'
-import Testimonials from '../components/Home/Testimonials'
 import Hero from '../sections/Home/Hero'
+import Categories from '../sections/Home/Categories'
+import Feedbacks from '../components/Home/Feedbacks'
 
 function Home() {
   return (
     <div className='bg-pink-700'>
       <Hero />
-      <FeaturedProducts />
-      <Testimonials />
+      <Categories />
+      <Feedbacks />
     </div>
   )
 }

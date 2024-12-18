@@ -1,6 +1,6 @@
 import { reviews } from "../../constants/Home/riviews";
 
-const Testimonials = () => {
+const Feedbacks = () => {
 
   return (
     <section className="bg-gray-100 px-6 py-12">
@@ -17,4 +17,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Feedbacks;

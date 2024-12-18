@@ -13,7 +13,7 @@ export const cakes = [
     price: "$25",
     image: "/assets/images/Menu/red-velvet.jpg",
     category: "Velvet",
-    isSpecial: false,
+    isSpecial: true,
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const cakes = [
     price: "$19",
     image: "/assets/images/Menu/cherries-strawberries.jpg",
     category: "Fruity",
-    isSpecial: false,
+    isSpecial: true,
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const cakes = [
     price: "$17",
     image: "/assets/images/Menu/carrot-cake.jpg",
     category: "Vegetable",
-    isSpecial: false,
+    isSpecial: true,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const cakes = [
     price: "$20",
     image: "/assets/images/Menu/banana-cake.jpg",
     category: "Nutty",
-    isSpecial: false,
+    isSpecial: true,
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const cakes = [
     price: "$24",
     image: "/assets/images/Menu/Mango Mousse Cake.avif",
     category: "Fruity",
-    isSpecial: true,
+    isSpecial: false,
   },
   {
     id: 10,
@@ -93,7 +93,7 @@ export const cakes = [
     price: "$16",
     image: "/assets/images/Menu/lemon-cake.jpg",
     category: "Citrus",
-    isSpecial: false,
+    isSpecial: true,
   },
   {
     id: 13,
@@ -117,6 +117,6 @@ export const cakes = [
     price: "$20",
     image: "/assets/images/Menu/Pineapple Upside-Down Cake.avif",
     category: "Tropical",
-    isSpecial: true,
+    isSpecial: false,
   },
 ];
